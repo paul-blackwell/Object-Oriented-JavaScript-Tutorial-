@@ -1,7 +1,8 @@
 # Object Oriented JavaScript Tutorial 
 
-This is my repo for the Object-Oriented JavaScript Tutorial series by The Net Ninja, 
+This is my repo for the [Object-Oriented JavaScript Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9i5yvDkJgt60vNVWffpblB70) series by The Net Ninja, 
 although I have used JS classes in the past I did this course as a refresher. 
+
 
 ### Syllabus
 
