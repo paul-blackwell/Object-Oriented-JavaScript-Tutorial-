@@ -26,6 +26,17 @@ class User {
 
 class Admin extends User {
 
+    /**
+     *  When super is called inside a method, it will
+     * call the method from the class it extends from,
+     * in our case its calling it from the constructor
+     * method from.
+     */
+    constructor(email, name, job) {
+        super(email, name);
+        this.job = job;
+    }
+
     // Note: We will inherit the constructor from User, but we can add our own
 
     deleteUser(user){
@@ -39,7 +50,7 @@ class Admin extends User {
 
 var userOne = new User('ryu@ninjas.com', 'Ryu');
 var userTwo = new User('yoshi@mariokorp.com', 'Yoshi');
-var admin = new Admin('shaun@ninjas.com', 'Shawn');
+var admin = new Admin('shaun@ninjas.com', 'Shawn', 'Admin');
 
 var users = [userOne, userTwo, admin];
 
